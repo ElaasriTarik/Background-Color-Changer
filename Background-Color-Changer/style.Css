@@ -1,0 +1,38 @@
+body{
+  display: flex;
+  justify-content: center;
+  
+
+}
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 40px;
+  border: 2px solid white;
+  outline: 1px solid black;
+  border-radius: 3px;
+  
+  margin: auto;
+  position: relative;
+  top: 50%;
+  padding: 0 1px;
+}
+input {
+	width: 200px;
+    border: 2px solid white;
+  outline: 1px solid black;
+  font-family: monospace;
+  letter-spacing: 2px;
+}
+button {
+	width: 48px;
+	background-color: white;
+	border: 1px solid #262626;
+	font-family: monospace;
+	font-size: 1rem;
+}
+button:hover {
+	box-shadow: 0 0 2px 0 lightblue;
+}
